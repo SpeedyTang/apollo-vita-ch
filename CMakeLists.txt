@@ -141,6 +141,7 @@ vita_create_vpk(${PROJECT_NAME}.vpk ${VITA_TITLEID} ${PROJECT_NAME}.self
   FILE data/langs/lang_ru.po data/lang_ru.po
   FILE libs/user.suprx sce_module/user.suprx
   FILE libs/kernel.skprx sce_module/kernel.skprx
+  FILE data/zh.ttf data/zh.ttf
 )
 
 add_custom_target(createzip
