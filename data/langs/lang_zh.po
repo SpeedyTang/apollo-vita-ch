@@ -147,7 +147,7 @@ msgstr "导出存档时发生错误:"
 #: exec_cmd.c:669
 #, c-format
 msgid "Do you want to delete %s?"
-msgstr "%s要删除吗？"
+msgstr "要删除%s吗？"
 
 #: exec_cmd.c:681
 msgid "Save successfully deleted:"
