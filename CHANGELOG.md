@@ -5,6 +5,7 @@ All notable changes to the `apollo-vita` project will be documented in this file
 ## [Unreleased]()
 
 ---
+## [v2.0.4](https://github.com/bucanero/apollo-vita/releases/tag/v2.0.5) - 2025-11-09
 
 ## [v2.0.4](https://github.com/bucanero/apollo-vita/releases/tag/v2.0.4) - 2025-11-09
 
