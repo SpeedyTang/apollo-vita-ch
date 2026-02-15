@@ -17,14 +17,14 @@ extern char user_id_str[];
 static char psid_str[] = "0000000000000000 0000000000000000";
 static char account_id_str[] = "0000000000000000";
 
-const char * menu_about_strings_project[] = { "User ID", user_id_str,
-											"Account ID", account_id_str,
-											"Console IDPS", psid_str,
+const char * menu_about_strings_project[] = { "用户ID", user_id_str,
+											"账号ID", account_id_str,
+											"设备IDPS", psid_str,
 											NULL };
 
-const char * menu_about_strings[] = { "Bucanero", "Developer",
+const char * menu_about_strings[] = { "Bucanero", "开发者",
 									"", "",
-									"console", "details:",
+									"设备", "详细信息:",
 									NULL };
 
 /***********************************************************************
