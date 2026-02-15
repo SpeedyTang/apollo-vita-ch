@@ -32,6 +32,9 @@ int TTFLoadFont(int set, const char * path, void * from_memory, int size_from_me
         }
 
     f_face[set] = 1;
+	if(set == 1) {
+		FT_New_Memory_Face(freetype, "data/zh.ttf", 0, &face[1]);
+	f_face[set] = 1;
 
     return 0;
 }
