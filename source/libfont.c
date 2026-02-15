@@ -85,6 +85,7 @@ void ResetFont()
 
     font_datas.sx = font_datas.sy = 8;
 	font_datas.mono = 0;
+	LoadTTFFonts("data/zh.ttf", 18);
 }
 
 u8 * AddFontFromBitmapArray(u8 *font, u8 *texture, u8 first_char, u8 last_char, int w, int h, int bits_per_pixel, int byte_order)
