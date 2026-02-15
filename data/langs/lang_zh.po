@@ -1,0 +1,874 @@
+msgid ""
+msgstr ""
+"项目版本ID: 阿波罗存档工具(Vita)\n"
+"项目创建日期: 2025-11-03 19:09-0300\n"
+"项目最后修改日期: 2025-11-03 19:10-0300\n"
+"中文翻译: 给糖就不闹\n"
+"语言团队:无\n"
+"语言: ZH\n"
+"MIME版本: 1.0\n"
+"内容类型: 纯文本; 字符编码=UTF-8\n"
+"内容传输编码: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: source\n"
+"X-Poedit-KeywordsList: _;_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: exec_cmd.c:54 exec_cmd.c:98 exec_cmd.c:153 exec_cmd.c:458 exec_cmd.c:986
+#: exec_cmd.c:1012 exec_cmd.c:1038
+msgid "Error! Export folder is not available:"
+msgstr "错误！导出文件夹不可用:"
+
+#: exec_cmd.c:60 exec_cmd.c:261
+msgid "Error downloading save game from:"
+msgstr "下载存档数据时发生错误:"
+
+#: exec_cmd.c:65 exec_cmd.c:324
+msgid "Save game successfully downloaded to:"
+msgstr "存档数据已成功下载:"
+
+#: exec_cmd.c:67 exec_cmd.c:272 exec_cmd.c:326
+msgid "Error extracting save game!"
+msgstr "保存数据提取失败!"
+
+#: exec_cmd.c:131
+msgid "Error! Can't export save game to:"
+msgstr "错误！无法导出存档数据:"
+
+#: exec_cmd.c:135
+msgid "Zip file successfully saved to:"
+msgstr "Zip文件已成功保存:"
+
+#: exec_cmd.c:147 exec_cmd.c:334
+msgid "Copy operation cancelled!"
+msgstr "复制操作已取消！"
+
+#: exec_cmd.c:147 exec_cmd.c:334
+msgid "Same source and destination."
+msgstr "相同的发送方和接收方"
+
+#: exec_cmd.c:168 exec_cmd.c:343
+msgid "Files successfully copied to:"
+msgstr "文件已成功复制:"
+
+#: exec_cmd.c:170
+msgid "Error! Can't copy save game to:"
+msgstr "错误！无法复制存档数据:"
+
+#: exec_cmd.c:291
+msgid "Error! save game folder is not available:"
+msgstr "错误！无法使用存档数据文件夹:"
+
+#: exec_cmd.c:295 exec_cmd.c:311
+msgid "Save game already exists:"
+msgstr "存档数据已经存在:"
+
+#: exec_cmd.c:295 exec_cmd.c:311
+msgid "Overwrite?"
+msgstr "是否覆盖？"
+
+#: exec_cmd.c:300
+msgid "Error mounting save game folder!"
+msgstr "保存数据文件夹安装失败！"
+
+#: exec_cmd.c:345
+msgid "Error! Can't copy Save-game folder:"
+msgstr "错误！无法复制存档文件夹:"
+
+#: exec_cmd.c:374
+msgid "Saves copied to Internal Storage"
+msgstr "存档数据已复制到内部存储"
+
+#: exec_cmd.c:410
+msgid "All files extracted to:"
+msgstr "所有文件已解压到以下位置:"
+
+#: exec_cmd.c:412
+#, c-format
+msgid "Error: %s couldn't be extracted"
+msgstr "错误：无法提取 %s"
+
+#: exec_cmd.c:425
+msgid "Error! Keystone file is not available:"
+msgstr "错误！无法使用密钥库文件:"
+
+#: exec_cmd.c:433 exec_cmd.c:509
+msgid "Error! Can't open file:"
+msgstr "错误！无法打开文件:"
+
+#: exec_cmd.c:444
+msgid "fingerprint successfully saved to:"
+msgstr "指纹保存成功:"
+
+#: exec_cmd.c:487
+msgid "Failed to export Trophy Set"
+msgstr "导出奖杯套装失败"
+
+#: exec_cmd.c:491
+msgid "Trophy Set successfully exported to:"
+msgstr "奖杯套装导出成功:"
+
+#: exec_cmd.c:501 exec_cmd.c:530
+msgid "Error! Game Key file is not available:"
+msgstr "错误！无法使用游戏密钥文件:"
+
+#: exec_cmd.c:520 exec_cmd.c:538
+msgid "game key successfully saved to:"
+msgstr "游戏密钥保存成功:"
+
+#: exec_cmd.c:540
+msgid "Error! Can't save file:"
+msgstr "错误！无法保存文件:"
+
+#: exec_cmd.c:569
+msgid "All fingerprints dumped to:"
+msgstr "所有指纹已被转存到以下目录:"
+
+#: exec_cmd.c:588
+msgid "Error! Trophy folder is not available:"
+msgstr "错误！无法使用奖杯文件夹:"
+
+#: exec_cmd.c:610
+msgid "Trophy successfully copied to:"
+msgstr "已成功复制奖杯:"
+
+#: exec_cmd.c:639
+msgid "Saves exported to:"
+msgstr "保存位置:"
+
+#: exec_cmd.c:660
+msgid "Save successfully exported to:"
+msgstr "已成功保存:"
+
+#: exec_cmd.c:662
+msgid "Error exporting save:"
+msgstr "导出存档时发生错误:"
+
+#: exec_cmd.c:669
+#, c-format
+msgid "Do you want to delete %s?"
+msgstr "%s要删除吗？"
+
+#: exec_cmd.c:681
+msgid "Save successfully deleted:"
+msgstr "删除成功:"
+
+#: exec_cmd.c:683
+msgid "Error! Couldn't delete save:"
+msgstr "错误！无法删除存档数据:"
+
+#: exec_cmd.c:700
+msgid "Keystone successfully copied to:"
+msgstr "密钥成功复制:"
+
+#: exec_cmd.c:702
+msgid "Error! Keystone couldn't be copied"
+msgstr "错误！无法复制密钥"
+
+#: exec_cmd.c:901
+msgid "Web Server on:"
+msgstr "Web服务器正在运行:"
+
+#: exec_cmd.c:901
+msgid "Press OK to stop the Server."
+msgstr "要停止服务器，请点击确定"
+
+#: exec_cmd.c:904
+msgid "Error starting Web Server!"
+msgstr "Web 服务器启动失败！"
+
+#: exec_cmd.c:921
+msgid "Error! Folder is not available:"
+msgstr "错误！无法使用该文件夹:"
+
+#: exec_cmd.c:948
+msgid "Saves copied to:"
+msgstr "复制到:"
+
+#: exec_cmd.c:995
+msgid "Trophy Set successfully copied to:"
+msgstr "奖杯套装复制成功:"
+
+#: exec_cmd.c:997
+#, c-format
+msgid "Error! Trophy Set %s not copied!"
+msgstr "错误！奖杯套装%s未被复制！"
+
+#: exec_cmd.c:1031
+msgid "Trophy Sets copied to:"
+msgstr "已复制奖杯套装:"
+
+#: exec_cmd.c:1045
+msgid "zRIF successfully exported to:"
+msgstr "zRIF的导出已成功完成:"
+
+#: exec_cmd.c:1047
+msgid "Error! zRIF not exported!"
+msgstr "错误！zRIF未导出！"
+
+#: exec_cmd.c:1257
+msgid "Error! Account changes couldn't be applied"
+msgstr "错误！无法应用账户更改"
+
+#: exec_cmd.c:1261
+msgid "Error! Cheat codes couldn't be applied"
+msgstr "错误！无法应用作弊代码"
+
+#: exec_cmd.c:1264
+msgid "Error! PSP Save couldn't be resigned"
+msgstr "错误！PSP存档数据重新签名失败"
+
+#: exec_cmd.c:1266
+#, c-format
+msgid "Save %s successfully modified!"
+msgstr "%s保存成功！"
+
+#: exec_cmd.c:1311
+msgid "Saves successfully resigned"
+msgstr "存档数据重新签名成功"
+
+#: exec_cmd.c:1413
+#, c-format
+msgid "Do you want to upload %s?"
+msgstr "是否要将%s上传？"
+
+#: exec_cmd.c:1454
+msgid "Error! Couldn't zip save:"
+msgstr "错误！无法压缩存档数据:"
+
+#: exec_cmd.c:1510
+msgid "Save successfully uploaded:"
+msgstr "存档数据上传成功:"
+
+#: exec_cmd.c:1512
+msgid "Error! Couldn't upload save:"
+msgstr "错误！保存数据上传失败:"
+
+#: exec_cmd.c:1525
+msgid "Memory card successfully imported to:"
+msgstr "存储卡已成功导入:"
+
+#: exec_cmd.c:1527
+msgid "Error importing memory card:"
+msgstr "导入记忆卡时发生错误:"
+
+#: exec_cmd.c:1539
+msgid "Memory card successfully exported to:"
+msgstr "内存卡已成功导出:"
+
+#: exec_cmd.c:1541
+msgid "Error exporting memory card:"
+msgstr "导出记忆卡时发生错误:"
+
+#: exec_cmd.c:1561 exec_cmd.c:1589
+#, c-format
+msgid "Error! No game decryption key available for %s"
+msgstr "错误！没有%s的游戏解码密钥"
+
+#: exec_cmd.c:1574 exec_cmd.c:1579
+#, c-format
+msgid "Error! File %s couldn't be exported"
+msgstr "错误！无法导出文件%s"
+
+#: exec_cmd.c:1576
+msgid "File successfully exported to:"
+msgstr "文件已成功导出:"
+
+#: exec_cmd.c:1596
+msgid "Error! Can't find decrypted save-game file:"
+msgstr "错误！未找到解密后的存档数据:"
+
+#: exec_cmd.c:1606 exec_cmd.c:1611
+#, c-format
+msgid "Error! File %s couldn't be imported"
+msgstr "错误！无法导入文件%s"
+
+#: exec_cmd.c:1608
+msgid "File successfully imported to:"
+msgstr "文件已成功导入:"
+
+#: exec_cmd.c:1626
+msgid "File successfully downloaded to:"
+msgstr "文件已成功下载:"
+
+#: exec_cmd.c:1628
+msgid "Error! File couldn't be downloaded"
+msgstr "错误！无法下载文件"
+
+#: exec_cmd.c:1719
+msgid "Memory card successfully resigned:"
+msgstr "存储卡重新注册成功:"
+
+#: exec_cmd.c:1721
+msgid "Error resigning memory card:"
+msgstr "在解除存储卡时发生错误:"
+
+#: exec_cmd.c:1765
+msgid "Save successfully imported:"
+msgstr "已成功导入:"
+
+#: exec_cmd.c:1767
+msgid "Error! Couldn't import save:"
+msgstr "错误！保存数据导入失败:"
+
+#: exec_cmd.c:1840
+msgid "ISO successfully saved to:"
+msgstr "ISO已保存成功:"
+
+#: exec_cmd.c:1842
+msgid "Error! ISO couldn't be created"
+msgstr "错误！无法创建ISO"
+
+#: exec_cmd.c:1848
+msgid "CSO successfully saved to:"
+msgstr "CSO已成功保存:"
+
+#: exec_cmd.c:1850
+msgid "Error! CSO couldn't be created"
+msgstr "错误！无法创建CSO"
+
+#: http.c:143
+msgid "Downloading..."
+msgstr "正在下载..."
+
+#: http.c:243
+msgid "Uploading..."
+msgstr "正在上传..."
+
+#: main.c:182 main.c:186 main.c:191 main.c:201
+msgid "Select"
+msgstr "选择"
+
+#: main.c:182 main.c:186 main.c:191 main.c:197 main.c:201
+msgid "Back"
+msgstr "返回"
+
+#: main.c:182 menu_cheats.c:253
+msgid "Details"
+msgstr "详细信息"
+
+#: main.c:182 main.c:186
+msgid "Refresh"
+msgstr "重新加载"
+
+#: main.c:201
+msgid "View Code"
+msgstr "显示代码"
+
+#: main.c:205
+msgid "Value Up"
+msgstr "增加数值"
+
+#: main.c:205
+msgid "Value Down"
+msgstr "减少数值"
+
+#: main.c:205
+msgid "Exit"
+msgstr "结束"
+
+#: main.c:457
+msgid "Internal Saves"
+msgstr "内部存档数据"
+
+#: main.c:458
+msgid "External Saves"
+msgstr "外部保存数据"
+
+#: main.c:459 saves.c:734
+msgid "Trophies"
+msgstr "奖杯"
+
+#: main.c:460
+msgid "User Tools"
+msgstr "用户工具"
+
+#: main.c:461
+msgid "Online Database"
+msgstr "线上数据库"
+
+#: main.c:462 saves.c:510
+msgid "Virtual Memory Card"
+msgstr "虚拟存储卡"
+
+#: main.c:674 settings.c:311
+msgid "Debug Logging Enabled"
+msgstr "调试日志功能已开启"
+
+#: main.c:682
+msgid "Successfully installed local application data"
+msgstr "本地数据库安装成功"
+
+#: main.c:702
+msgid "PSP FuseID successfully imported!"
+msgstr "成功导入了PSP FuseID！"
+
+#: menu_about.c:117 menu_about.c:149
+msgid "About"
+msgstr "关于"
+
+#: menu_cheats.c:112 menu_cheats.c:142 menu_cheats.c:162
+msgid "Options"
+msgstr "选项"
+
+#: menu_cheats.c:207
+msgid "Target File:"
+msgstr "目标文件:"
+
+#: menu_cheats.c:509
+msgid "Saves"
+msgstr "存档数据"
+
+#: menu_cheats.c:513
+msgid "Games"
+msgstr "游戏"
+
+#: menu_cheats.c:517
+msgid "Trophy-Sets"
+msgstr "奖杯套装"
+
+#: menu_cheats.c:521
+msgid "Tools"
+msgstr "工具箱"
+
+#: menu_cheats.c:525
+msgid "PS1 Saves"
+msgstr "PS1的存档数据"
+
+#: menu_hex.c:52 menu_hex.c:72
+msgid "Hex Editor"
+msgstr "十六进制编辑器"
+
+#: menu_main.c:86
+msgid "No save-games found"
+msgstr "未找到存档数据"
+
+#: menu_main.c:345 menu_main.c:700
+msgid "Patch view"
+msgstr "补丁显示"
+
+#: menu_main.c:449
+msgid "No data found in folder:"
+msgstr "在文件夹中未找到数据:"
+
+#: menu_main.c:501
+msgid "Exit to XMB?"
+msgstr "是否退出程序？"
+
+#: menu_main.c:641
+#, c-format
+msgid "Save changes to %s?"
+msgstr "%s要保存更改吗？"
+
+#: menu_main.c:736
+msgid "Failed to load:"
+msgstr "加载失败:"
+
+#: menu_options.c:62 menu_options.c:82
+msgid "Settings"
+msgstr "设定"
+
+#: saves.c:130
+msgid "Warning! Save couldn't be unmounted!"
+msgstr "警告！无法卸载存档数据！"
+
+#: saves.c:405
+msgid "Apply Changes & Resign"
+msgstr "应用更改并重新签署"
+
+#: saves.c:408 saves.c:882
+msgid "View Save Details"
+msgstr "显示存档详情"
+
+#: saves.c:412
+msgid "File Backup"
+msgstr "文件备份"
+
+#: saves.c:415
+msgid "Copy save game"
+msgstr "复制存档"
+
+#: saves.c:416 saves.c:899 saves.c:904 saves.c:909
+msgid "Copy Save to Backup Storage"
+msgstr "将副本保存到备份存储"
+
+#: saves.c:420
+msgid "Copy Save to User Storage"
+msgstr "将副本保存到用户存储"
+
+#: saves.c:428 saves.c:894
+msgid "Upload save backup to FTP"
+msgstr "将存档数据备份上传到FTP"
+
+#: saves.c:432
+msgid "Export save game to Zip"
+msgstr "将存档数据导出为Zip格式"
+
+#: saves.c:433
+msgid "Export Zip to Backup Storage"
+msgstr "将Zip导出到备份存储"
+
+#: saves.c:436
+msgid "Export decrypted save files"
+msgstr "导出解码的存档数据"
+
+#: saves.c:441
+msgid "Import decrypted save files"
+msgstr "导入已解密的存档数据"
+
+#: saves.c:446
+msgid "Hex Edit save game files"
+msgstr "存档数据十六进制编辑器"
+
+#: saves.c:489
+msgid "Keystone Backup"
+msgstr "基石备份"
+
+#: saves.c:492
+msgid "Export Keystone"
+msgstr "导出基石"
+
+#: saves.c:495
+msgid "Import Keystone"
+msgstr "导入基石"
+
+#: saves.c:498
+msgid "Dump save Fingerprint"
+msgstr "保存数据的指纹转储"
+
+#: saves.c:515
+msgid "Resign Memory Card"
+msgstr "重新签署内存卡"
+
+#: saves.c:519
+msgid "Export Memory Card to .MCR"
+msgstr "将存储卡导出为MCR格式"
+
+#: saves.c:522
+#, c-format
+msgid "Import .MCR files to %s"
+msgstr "将MCR文件导入到%s"
+
+#: saves.c:536 saves.c:885
+msgid "Delete Save Game"
+msgstr "删除存档"
+
+#: saves.c:540
+msgid "Game Key Backup"
+msgstr "游戏钥匙备份"
+
+#: saves.c:543
+msgid "Dump binary Save-game Key"
+msgstr "转储二进制存档数据键"
+
+#: saves.c:546
+msgid "Export Save-game Key (text file)"
+msgstr "导出存档数据键（文本文件）"
+
+#: saves.c:579
+msgid "Error Mounting Save!"
+msgstr "无法挂载存档文件!"
+
+#: saves.c:596
+msgid "Cheats"
+msgstr "金手指"
+
+#: saves.c:599
+msgid "View Raw Patch File"
+msgstr "显示原始补丁文件"
+
+#: saves.c:723
+msgid "Backup Trophy Set to Backup Storage"
+msgstr "将备份奖杯设置到备份存储"
+
+#: saves.c:725
+msgid "Copy Trophy to Backup Storage"
+msgstr "将奖杯复制到备份存储"
+
+#: saves.c:728
+msgid "Export Trophy Set to Zip"
+msgstr "将奖杯套装导出为Zip格式"
+
+#: saves.c:730
+msgid "Save .Zip to Backup Storage"
+msgstr "将Zip保存到存储"
+
+#: saves.c:889
+msgid "Save Backup"
+msgstr "备份存档数据"
+
+#: saves.c:898
+msgid "Export save game to MCS format"
+msgstr "将存档数据导出为MCS格式"
+
+#: saves.c:903
+msgid "Export save game to PSV format"
+msgstr "将存档数据导出为PSV格式"
+
+#: saves.c:908
+msgid "Export save game to PSX format"
+msgstr "将存档数据导出为PSX格式"
+
+#: saves.c:966
+msgid "Download to Backup Storage"
+msgstr "下载到备份存储"
+
+#: saves.c:970 saves.c:975
+msgid "Download to User Storage"
+msgstr "下载到用户存储"
+
+#: saves.c:996
+msgid "Extract Archives (RAR, Zip, 7z)"
+msgstr "解压存档(RAR、Zip、7z)"
+
+#: saves.c:1002 saves.c:1008
+msgid "Export NoNpDRM Licenses to zRIF"
+msgstr "将NoNpDRM许可证导出到zRIF"
+
+#: saves.c:1014
+msgid "Network Tools (Downloader, Web Server)"
+msgstr "网络工具"
+
+#: saves.c:1019
+msgid "Manage PSP Key Dumper tools"
+msgstr "PSP密钥管理工具"
+
+#: saves.c:1025
+msgid "Decompress .CSO to .ISO"
+msgstr "将CSO解压为ISO"
+
+#: saves.c:1031
+msgid "Compress .ISO to .CSO"
+msgstr "将ISO压缩为CSO"
+
+#: saves.c:1058
+#, c-format
+msgid "Convert %s"
+msgstr "%s转换"
+
+#: saves.c:1096
+msgid "URL link Downloader (http, https, ftp, ftps)"
+msgstr "网址链接下载器"
+
+#: saves.c:1098
+msgid "Local Web Server (full system access)"
+msgstr "本地网页服务器（完全系统访问）"
+
+#: saves.c:1104
+msgid "Install Save-game Key Dumper plugin"
+msgstr "安装存档数据转储插件"
+
+#: saves.c:1107
+msgid "Disable Save-game Key Dumper plugin"
+msgstr "禁用存档数据键导出插件"
+
+#: saves.c:1110
+msgid "Install PSP FuseID Dumper application"
+msgstr "安装PSP FuseID Dumper应用程序"
+
+#: saves.c:1163
+#, c-format
+msgid "Extract %s"
+msgstr "%s提取"
+
+#: saves.c:1593 saves.c:1642
+msgid "Bulk Save Management"
+msgstr "统一保存管理"
+
+#: saves.c:1601
+msgid "Resign selected Saves"
+msgstr "重新签署所选存档数据"
+
+#: saves.c:1604
+msgid "Resign all Saves"
+msgstr "重新签署所有存档数据"
+
+#: saves.c:1608
+msgid "Copy selected Saves to User Storage"
+msgstr "将所选存档复制到用户存储"
+
+#: saves.c:1612
+msgid "Copy all Saves to User Storage"
+msgstr "将所有存档数据复制到用户存储"
+
+#: saves.c:1615 saves.c:1658
+msgid "Start local Web Server"
+msgstr "启动本地Web服务器"
+
+#: saves.c:1618 saves.c:1661
+msgid "Dump all Save Fingerprints"
+msgstr "删除所有已保存的指纹"
+
+#: saves.c:1650
+msgid "Copy selected Saves to Backup Storage"
+msgstr "将选定的存档数据复制到备份存储"
+
+#: saves.c:1651 saves.c:1655 saves.c:1783 saves.c:1786
+msgid "Copy Saves to Backup Storage"
+msgstr "将副本保存到备份存储"
+
+#: saves.c:1654
+msgid "Copy all Saves to Backup Storage"
+msgstr "将所有存档数据复制到备份存储"
+
+#: saves.c:1770
+msgid "Memory Card Management"
+msgstr "存储卡管理"
+
+#: saves.c:1782
+msgid "Export selected Saves to Backup Storage"
+msgstr "将所选存档数据导出到备份存储"
+
+#: saves.c:1785
+msgid "Export all Saves to Backup Storage"
+msgstr "将所有存档数据导出到备份存储"
+
+#: saves.c:1791
+msgid "Import Saves to Virtual Card"
+msgstr "将存档数据导入到虚拟卡"
+
+#: saves.c:1844
+msgid "Bulk Trophy Management"
+msgstr "奖杯的统一管理"
+
+#: saves.c:1852
+msgid "Backup selected Trophies to Backup Storage"
+msgstr "将选定的奖杯备份到备份存储"
+
+#: saves.c:1853 saves.c:1856
+msgid "Copy Trophies to Backup Storage"
+msgstr "将奖杯复制到备份存储"
+
+#: saves.c:1855
+msgid "Backup all Trophies to Backup Storage"
+msgstr "将所有奖杯备份到备用存储"
+
+#: saves.c:1866
+msgid "Import Trophies"
+msgstr "导入奖杯"
+
+#: settings.c:31
+msgid "Online DB"
+msgstr "线上数据库"
+
+#: settings.c:31
+msgid "FTP Server"
+msgstr "FTP服务器"
+
+#: settings.c:33
+msgid "Disabled"
+msgstr "无排序"
+
+#: settings.c:33
+msgid "by Name"
+msgstr "按游戏名字"
+
+#: settings.c:33
+msgid "by Title ID"
+msgstr "按游戏ID"
+
+#: settings.c:33
+msgid "by Type"
+msgstr "按游戏类型"
+
+#: settings.c:46
+msgid "Background Music"
+msgstr "背景音乐"
+
+#: settings.c:52
+msgid "Menu Animations"
+msgstr "菜单动画"
+
+#: settings.c:58
+msgid "Sort Saves"
+msgstr "存档排序"
+
+#: settings.c:64
+msgid "External Saves Source"
+msgstr "保存路径"
+
+#: settings.c:70
+msgid "Version Update Check"
+msgstr "检查更新"
+
+#: settings.c:76
+msgid "Set User FTP Server URL"
+msgstr "设置用户FTP服务器地址"
+
+#: settings.c:83
+msgid "Online Saves Server"
+msgstr "线上存档数据服务器"
+
+#: settings.c:89
+msgid "Update Application Data"
+msgstr "应用程序数据更新"
+
+#: settings.c:95
+msgid "Change Online Database URL"
+msgstr "更改线上数据库地址"
+
+#: settings.c:101
+msgid "Clear Local Cache"
+msgstr "清除本地缓存"
+
+#: settings.c:108
+msgid "Enable Debug Log"
+msgstr "调试日志"
+
+#: settings.c:141
+msgid "Enter the Online Database URL"
+msgstr "请输入线上数据库地址"
+
+#: settings.c:147
+msgid "Online database URL changed to:"
+msgstr "线上数据库地址已更改为以下地址:"
+
+#: settings.c:156
+msgid "Enter the FTP server URL"
+msgstr "请输入FTP服务器地址"
+
+#: settings.c:190
+msgid "FTP server URL changed to:"
+msgstr "FTP服务器地址已更改:"
+
+#: settings.c:193
+msgid "Error! Couldn't connect to FTP server"
+msgstr "错误！无法连接到FTP服务器"
+
+#: settings.c:193
+msgid "Check debug logs for more information"
+msgstr "有关详细信息，请查看调试日志"
+
+#: settings.c:201
+msgid "Local cache folder cleaned:"
+msgstr "本地缓存文件夹已清理:"
+
+#: settings.c:209
+msgid "Error! Can't download data update pack!"
+msgstr "错误！无法下载数据更新包!"
+
+#: settings.c:212
+#, c-format
+msgid "Successfully updated %d data files!"
+msgstr "%d成功更新了这个数据文件！"
+
+#: settings.c:214
+msgid "Error! Can't extract data update pack!"
+msgstr "错误！无法提取数据更新包！"
+
+#: settings.c:281
+msgid "New version available! Download update?"
+msgstr "有新版本可用！是否下载更新？"
+
+#: settings.c:284
+#, c-format
+msgid "Update downloaded to %s"
+msgstr "更新文件已下载到%s"
+
+#: settings.c:286
+msgid "Download error!"
+msgstr "无法下载，请检查网络是否正常"
+
+#: settings.c:306
+msgid "Debug Logging Disabled"
+msgstr "调试日志功能已关闭"
